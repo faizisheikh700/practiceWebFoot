@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px 45px 5px 20px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 100vw;
+  
+}
+
+/* .navbar{
+  position: fixed;
+  top: 0;
+} */
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 20px;
+  padding: 15px;
+  padding-right: 35px;
+}
+
+.head li:hover{
+  text-decoration: underline;
+
+}
+.navbar .logoMain h1{
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.search input{
+ border-radius: 30px;
+ padding: 4px;
+}
+
+
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  /* margin: auto; */
+  background-color: rgb(233, 231, 227);
+  height: 504px;
+}
+
+
+.square1 {
+  /* background-color: red;
+  border: 2px solid black; */
+  width: 480px;
+  height: 300px;
+}
+.main h6 {
+  color: red;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.main h2 {
+  font-weight: bold;
+  font-size: 48px;
+}
+.main p {
+  font-size: 16px;
+}
+.main .primary-btn {
+  font-size: 20px;
+  font-weight: 100px;
+  padding: 5px 5px;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  line-height: 50px;
+}
+
+.square2 img{
+  /* background-color: red;
+  border: 2px solid black; */
+  /* width: 300px; */
+  /* height: 300px; */
+  /* border-radius: 500px; */
+  /* background-image: url("../images/model.png"); */
+  background-size: cover;
+}
+.textBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.textBar h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(214, 218, 218);
+}
+.textBar h1:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.cardsSect {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.cardsSect .card {
+  border: 2px solid black;
+}
+
+
+
+
+footer {
+  background-color: black;
+  margin-top: 30px;
+  /* text-align: center; */
+}
+.mainFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  padding: 8px;
+}
+.footerSect1 {
+  /* background-color: pink;
+  border: 2px solid white; */
+  width: 300px;
+  height: 250px;
+  margin-top: 50px;
+  text-align: left;
+}
+.footerSect2 {
+  /* background-color: pink;
+  border: 2px solid white; */
+  width: 300px;
+  height: 250px;
+  margin-top: 50px;
+  /* text-align: center; */
+  text-align: left;
+}
+.footerSect3 {
+  /* background-color: pink;
+  border: 2px solid white; */
+  width: 300px;
+  height: 250px;
+  margin-top: 50px;
+}
+.footerSect4 {
+  /* background-color: pink;
+  border: 2px solid white; */
+  width: 300px;
+  height: 250px;
+  margin-top: 50px;
+}
+footer hr {
+  margin: auto;
+  margin-top: 15px;
+  width: 800px;
+}
+footer .footerSect1 p {
+  color: white;
+  justify-content: center;
+  text-align: left;
+  margin-top: 15px;
+  line-height: 25px;
+}
+
+footer .footerSect1 img{
+  margin-top: 20px;
+}
+
+footer .webName {
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: white;
+  text-align: center;
+}
+footer .footerSect2 ul{
+  display: inline;
+  line-height: 40px;
+  
+}
+
+footer .footerSect2 h6 {
+  font-weight: bold;
+}
+
+footer .footerSect3 h6 {
+  font-weight: bold;
+}
+
+
+footer .footerSect3 ul{
+  display: inline;
+  line-height: 40px;
+
+}
+
+footer .footerSect4 h6{
+  font-weight: bold;
+
+}
+footer .footerSect4 p{
+  text-align: left;
+}
+footer .footerSect4 form input{
+  background-color: black;
+  border-bottom: 1px solid white;
+  margin-top: 60px;
+}
