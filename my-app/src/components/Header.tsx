@@ -16,9 +16,7 @@ export default function Head() {
         <div className="search">
         <a href="#" className="primary-btn" style={{border:"1px solid white", padding:"5px",
           borderRadius:"20px"
-        }}>Get Website</a>
-          {/* <div><input type="text" placeholder="search" /></div> */}
-    
+        }}>Get Website</a>    
         </div>
       </div>
       

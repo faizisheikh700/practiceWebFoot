@@ -1,4 +1,3 @@
-import Head from "./Header"
 
 export default function Footer() {
     return (
