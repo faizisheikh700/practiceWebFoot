@@ -12,7 +12,7 @@ export default function Cards(){
         <h1> New Arrivals</h1>
         <h1>Hot Sales</h1>
       </div>
-      <div className="cardsSect">
+      <iv className="cardsSect">
         <div className="card" style={{ width: "18rem" }}>
           <img
             src="https://img.freepik.com/premium-photo/black-sports-shoe-black-background_955012-1697.jpg"
@@ -70,7 +70,7 @@ export default function Cards(){
             </a>
           </div>
         </div>
-      </div>
+      </iv>
       <div className="cardsSect">
         <div className="card" style={{ width: "18rem" }}>
           <img

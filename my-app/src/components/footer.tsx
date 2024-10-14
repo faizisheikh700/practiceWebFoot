@@ -7,7 +7,7 @@ export default function Footer() {
         <footer>
           <div className="mainFooter">
             <div className="footerSect1">
-              <div className="webName">Shoppingcart.</div>
+              <div className="webName">My Profile</div>
               <p className="discrip">
                 The customer is at the heart of our unique business model, which
                 includes design.
@@ -16,12 +16,12 @@ export default function Footer() {
               <div className="atmCards"></div>
             </div>
             <div className="footerSect2">
-              <h6>SHOPPING</h6>
+              <h6>SALES</h6>
               <ul>
-                <li>Clothing Store</li>
-                <li>Trending Shoes</li>
-                <li>Accessories</li>
-                <li>Sale</li>
+                <li>UI UX</li>
+                <li>Development</li>
+                <li>Designs</li>
+                <li>Database</li>
               </ul>
             </div>
             <div className="footerSect3">
@@ -30,7 +30,7 @@ export default function Footer() {
                 <li>Contact Us</li> 
                 <li>Payment Methods</li> 
                 <li>Delivary</li>
-                <li>Return & Exchanges</li>
+                <li>Changes</li>
               </ul>
             </div>
             <div className="footerSect4">

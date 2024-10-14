@@ -6,7 +6,7 @@ export default function Head() {
       <>
       <div className="navbar">
         <div className="logoMain">
-          <h1>Shopping Cart.</h1>
+          <h1>My Profile</h1>
         </div>
         <ul className="head">
           <Link href={"/"}>
@@ -19,11 +19,14 @@ export default function Head() {
           <li>Contact</li>
           </Link>
           <Link href={"careers"}>
-          <li>Careers</li>
+          <li>Jobs</li>
           </Link>
         </ul>
         <div className="search">
-          <div><input type="text" placeholder="search" /></div>
+        <a href="#" className="primary-btn" style={{border:"1px solid white", padding:"5px",
+          borderRadius:"20px"
+        }}>Get Website</a>
+          {/* <div><input type="text" placeholder="search" /></div> */}
     
         </div>
       </div>
