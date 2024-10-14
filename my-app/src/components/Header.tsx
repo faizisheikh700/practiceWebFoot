@@ -12,15 +12,6 @@ export default function Head() {
           <Link href={"/"}>
           <li>Home</li>
           </Link>
-          <Link href={"/cards"}>
-          <li>Cards</li>
-          </Link>
-          <Link href={"contact"}>
-          <li>Contact</li>
-          </Link>
-          <Link href={"careers"}>
-          <li>Jobs</li>
-          </Link>
         </ul>
         <div className="search">
         <a href="#" className="primary-btn" style={{border:"1px solid white", padding:"5px",
