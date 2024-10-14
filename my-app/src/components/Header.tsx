@@ -9,14 +9,19 @@ export default function Head() {
           <h1>My Profile</h1>
         </div>
         <ul className="head">
-          <Link href={"/"}>
+        
           <li>Home</li>
-          </Link>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Job</li>
+          
+
         </ul>
         <div className="search">
         <a href="#" className="primary-btn" style={{border:"1px solid white", padding:"5px",
           borderRadius:"20px"
-        }}>Get Website</a>    
+        }}>Get Website</a>
+    
         </div>
       </div>
       
